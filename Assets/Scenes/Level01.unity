@@ -287,3 +287,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SpeedFactor: 10
+  LimitTop: 4
+  LimitBottom: -4
+  LimitLeft: -8
+  LimitRight: 8
