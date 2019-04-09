@@ -4063,16 +4063,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5469499015651326414, guid: bfce403aa1d4bd047aad120e46215b9c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.85
-      objectReference: {fileID: 0}
-    - target: {fileID: 5469499015651326414, guid: bfce403aa1d4bd047aad120e46215b9c,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.22
-      objectReference: {fileID: 0}
     - target: {fileID: 5469499016443345548, guid: bfce403aa1d4bd047aad120e46215b9c,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -4082,6 +4072,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 5469499015651326414, guid: bfce403aa1d4bd047aad120e46215b9c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5469499015651326414, guid: bfce403aa1d4bd047aad120e46215b9c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.22
       objectReference: {fileID: 0}
     - target: {fileID: 6290775434592598221, guid: bfce403aa1d4bd047aad120e46215b9c,
         type: 3}
@@ -12429,7 +12429,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 127.32001, y: -31.77}
+  m_AnchoredPosition: {x: 127.32001, y: -31.770004}
   m_SizeDelta: {x: 234.16, y: 52.24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1372760561
@@ -14189,6 +14189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSFX:
     coinPickup: {fileID: 8300000, guid: aae7ed0278430244ab9e192137caec66, type: 3}
+    fail: {fileID: 8300000, guid: 30524ba5c492fd44293e398d132619d0, type: 3}
 --- !u!1001 &1514207327
 PrefabInstance:
   m_ObjectHideFlags: 0

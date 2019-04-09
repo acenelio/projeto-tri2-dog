@@ -11,5 +11,11 @@ public class PlayerControl : MonoBehaviour
             Destroy(other.gameObject);
             LevelManager.instance.IncrementCoinCount();
         }
+        else if (other.gameObject.layer == LayerMask.NameToLayer("Enemies")) {
+            Camera.main.GetComponentInChildren<AudioSource>().mute = true;
+            LevelManager.instance.SetTapeSpeed(0);
+            AudioManager.instance.PlaySoundFail(gameObject);
+            Destroy(gameObject);
+        }
     }
 }
