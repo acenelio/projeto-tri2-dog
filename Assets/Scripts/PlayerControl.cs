@@ -34,6 +34,7 @@ public class PlayerControl : MonoBehaviour
         StopMusicAndTape();
         AudioManager.instance.PlaySoundFail(gameObject);
         SFXManager.instance.ShowDieParticles(gameObject);
-        Destroy(gameObject);        
+        Destroy(gameObject);   
+        LevelManager.instance.ShowGameOverPanel();     
     }
 }
